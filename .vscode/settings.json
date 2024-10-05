@@ -1,0 +1,9 @@
+{
+    "editor.rulers": [80],
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "comment": "#7A7E85",
+            "comment.documentation":  "#6A9955",
+        },
+    },
+}
