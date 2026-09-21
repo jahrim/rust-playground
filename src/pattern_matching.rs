@@ -24,7 +24,7 @@ runnable!(pattern_matching, {
         /// Cases can also match against conditions. Guards are not taken in
         /// consideration for checking that the domain of the match-case is
         /// totally-defined.
-        int if int <= 0 && int > 40 => "Match zero",
+        int if int > 40 => "Match on condition",
         /// ### Default Case
         /// This last case matches against anything.
         otherwise => "Match anything else",
